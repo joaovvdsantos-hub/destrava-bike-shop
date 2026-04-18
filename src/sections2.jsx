@@ -76,24 +76,20 @@ const Testimonials = () => (
       </div>
       <div className="testim-grid">
         {[
-          {tag:'Resultado em marketing',name:'[NOME]',city:'[CIDADE] · [LOJA]'},
-          {tag:'Resultado em vendas',name:'[NOME]',city:'[CIDADE] · [LOJA]'},
-          {tag:'Resultado em processos',name:'[NOME]',city:'[CIDADE] · [LOJA]'},
+          {name:'Valdirene', quote:'Nós saímos de um faturamento de R$30 mil por mês para mais de R$100 mil por mês em apenas 6 meses e eu só tenho a agradecer ao Felipe por isso.'},
+          {name:'Jefferson', quote:'Aqui estou impressionado de como as vendas estão crescendo, esse mês foi de ficar sem acreditar, meta superada, coloquei uma meta para vender 8 bikes e vendemos 12 bikes. Antes era quase 1 bike no máximo...'},
+          {name:'Filipe',    quote:'Quando comecei faturava em média R$35.000, no primeiro mês já bati R$60.000, agora estou em R$71.500 e o mês nem acabou.'},
         ].map((t,i)=>(
           <div className="testim-card" key={i}>
-            <span className="tag">{t.tag}</span>
-            <div className="quote"><span className="ph">[ depoimento real aqui — frase objetiva com antes/depois, em até 3 linhas, destacando o ponto mais concreto que o aluno mudou na loja após aplicar o guia ]</span></div>
+            <div className="quote">{t.quote}</div>
             <div className="person">
-              <div className="avatar">IMG</div>
               <div>
                 <div style={{fontWeight:700,color:'var(--ink)',fontSize:14,fontFamily:'Barlow Condensed, sans-serif',textTransform:'uppercase',letterSpacing:'.05em'}}>{t.name}</div>
-                <div className="person-meta">{t.city}</div>
               </div>
             </div>
           </div>
         ))}
       </div>
-      <div className="testim-note"><span className="dot"></span>Placeholders — preencher com 3 depoimentos reais (foto + nome + cidade + loja + resultado específico em negrito).</div>
     </div>
   </section>
 );
