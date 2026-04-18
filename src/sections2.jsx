@@ -54,9 +54,9 @@ const Guides = () => (
         <div className="bonus">
           <div className="num">B4</div>
           <div>
-            <div className="kicker">Bônus 04 · Plano guiado</div>
-            <h4>Trilha de Ativação MVP — 30 dias</h4>
-            <p>Um cronograma dia-a-dia que te leva do PDF à aplicação prática: o que fazer na semana 1, 2, 3 e 4 para destravar Marketing, Vendas e Processos em ordem.</p>
+            <div className="kicker">Bônus 04 · Exercícios práticos</div>
+            <h4>Exercícios práticos de ativação</h4>
+            <p>Atividades diretas para você sair da leitura para a ação: exercícios práticos que traduzem cada guia em tarefas concretas para aplicar na sua loja.</p>
           </div>
         </div>
       </div>
@@ -112,7 +112,7 @@ const Offer = ({ onBuy, price, showScarcity }) => {
           <li><div className="label"><div className="ico" style={{background:'rgba(245,197,24,.12)',color:'var(--yellow)'}}>B1</div>🎁 Aula WhatsApp Máquina de Vendas</div><div className="val">R$ 97</div></li>
           <li><div className="label"><div className="ico" style={{background:'rgba(245,197,24,.12)',color:'var(--yellow)'}}>B2</div>🎁 PDF exclusivo da aula</div><div className="val">R$ 37</div></li>
           <li><div className="label"><div className="ico" style={{background:'rgba(245,197,24,.12)',color:'var(--yellow)'}}>B3</div>🎁 Call de Onboarding Individual</div><div className="val">R$ 297</div></li>
-          <li><div className="label"><div className="ico" style={{background:'rgba(245,197,24,.12)',color:'var(--yellow)'}}>B4</div>🎁 Trilha de Ativação MVP — 30 dias</div><div className="val">R$ 47</div></li>
+          <li><div className="label"><div className="ico" style={{background:'rgba(245,197,24,.12)',color:'var(--yellow)'}}>B4</div>🎁 Exercícios práticos de ativação</div><div className="val">R$ 47</div></li>
           <li className="total"><div className="label">Valor total se vendido separado</div><div className="val">R$ 676</div></li>
         </ul>
         <div className="offer-ratio">
