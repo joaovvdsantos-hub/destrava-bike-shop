@@ -46,7 +46,7 @@ const Hero = ({ onBuy, headlineKey }) => {
           </ul>
           <div className="cta-row">
             <button className="btn-primary" onClick={onBuy}>
-              Quero destravar minha bike shop <Arrow />
+              Quero destravar meu bike shop <Arrow />
             </button>
             <span className="cta-note">🔒 ACESSO IMEDIATO · VITALÍCIO</span>
           </div>

@@ -48,7 +48,7 @@ const Guides = () => (
           <div>
             <div className="kicker">Bônus 03 · Atendimento individual</div>
             <h4>Call de Onboarding Individual</h4>
-            <p>Uma call 1:1 para você mapear onde sua bike shop está hoje e sair com um plano de ação claro para os primeiros 30 dias do método.</p>
+            <p>Uma call 1:1 para você mapear onde seu bike shop está hoje e sair com um plano de ação claro para os primeiros 30 dias do método.</p>
           </div>
         </div>
         <div className="bonus">
@@ -72,7 +72,7 @@ const Testimonials = () => (
           <div className="eyebrow">Prova social</div>
           <h2>Bike shops que já<br/>aplicaram o método</h2>
         </div>
-        <p className="lead">Resultados de lojistas que colocaram o Método MVP na prática nas suas próprias bike shops.</p>
+        <p className="lead">Resultados de lojistas que colocaram o Método MVP na prática nos seus próprios bike shops.</p>
       </div>
       <div className="testim-grid">
         {[
@@ -129,7 +129,7 @@ const Offer = ({ onBuy, price, showScarcity }) => {
           <div className="terms">PAGAMENTO ÚNICO · SEM ASSINATURA · ACESSO VITALÍCIO</div>
         </div>
         <button className="btn-primary big-cta" onClick={onBuy}>
-          Quero destravar minha bike shop agora <Arrow/>
+          Quero destravar meu bike shop agora <Arrow/>
         </button>
         <div className="offer-trust">
           <span><span className="d"></span>Pagamento seguro · Hotmart</span>
@@ -257,9 +257,9 @@ const Final = ({ onBuy }) => (
   <section className="final">
     <div className="wrap">
       <div className="eyebrow">Última parada</div>
-      <h2>Chegou a hora de<br/><em>destravar</em> sua bike shop.</h2>
+      <h2>Chegou a hora de<br/><em>destravar</em> seu bike shop.</h2>
       <p className="lead">Toda semana sem Marketing, Vendas e Processos funcionando na sua loja é faturamento na mesa que você deixou passar.</p>
-      <button className="btn-primary" onClick={onBuy}>Quero destravar minha bike shop <Arrow/></button>
+      <button className="btn-primary" onClick={onBuy}>Quero destravar meu bike shop <Arrow/></button>
       <div className="offer-trust" style={{marginTop:28}}>
         <span><span className="d"></span>Pagamento seguro</span>
         <span><span className="d"></span>Garantia de 7 dias</span>
