@@ -40,7 +40,6 @@ function App(){
 
   return (
     <>
-      <Nav onBuy={onBuy} />
       <Hero onBuy={onBuy} headlineKey={tweaks.headline} />
       <Pain />
       <Villain />
