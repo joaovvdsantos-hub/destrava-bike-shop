@@ -33,27 +33,29 @@ function App(){
     window.parent.postMessage({type:'__edit_mode_set_keys', edits:{[k]: v}}, '*');
   };
 
-  const onBuy = ()=>{
+  const onScrollToOffer = ()=>{
     const el = document.getElementById('offer');
     if (el) window.scrollTo({top: el.offsetTop - 70, behavior:'smooth'});
   };
 
+  const onCheckout = ()=>{ window.open('https://pay.hotmart.com/R105442623Q', '_blank'); };
+
   return (
     <>
-      <Hero onBuy={onBuy} headlineKey={tweaks.headline} />
+      <Hero onBuy={onScrollToOffer} headlineKey={tweaks.headline} />
       <Pain />
       <Villain />
       <MVP />
       <Guides />
       <Testimonials />
-      <Offer onBuy={onBuy} price={tweaks.price} showScarcity={tweaks.showScarcity} />
+      <Offer onBuy={onCheckout} price={tweaks.price} showScarcity={tweaks.showScarcity} />
       <About />
       <ForWho />
       <Guarantee />
       <FAQ />
-      <Final onBuy={onBuy} />
+      <Final onBuy={onCheckout} />
       <Footer />
-      <StickyBuy show={showSticky} onBuy={onBuy} price={tweaks.price} />
+      <StickyBuy show={showSticky} onBuy={onCheckout} price={tweaks.price} />
 
       {editMode && (
         <div className="tweaks">
